@@ -1,0 +1,697 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="app_name">LBRY</string>
+    <string name="navigation_drawer_open">פתחו תפריט ניווט</string>
+    <string name="navigation_drawer_close">סגרו תפריט ניווט</string>
+
+    <!-- Nav menu -->
+    <string name="find_content">מצאו תוכן</string>
+    <string name="your_content">התוכן שלכם</string>
+    <string name="wallet">ארנק</string>
+    <string name="following">במעקב</string>
+    <string name="editors_choice">החלטת העורך</string>
+    <string name="your_tags">התגיות שלכם</string>
+    <string name="all_content">כל התכנים</string>
+    <string name="channels">ערוצים</string>
+    <string name="library">ספרייה</string>
+    <string name="publishes">פרסומים</string>
+    <string name="new_publish">פרסמו תוכן חדש</string>
+    <string name="rewards">הטבות</string>
+    <string name="invites">הזמנות</string>
+    <string name="settings">הגדרות</string>
+    <string name="about">אודות</string>
+    <string name="sign_in">כניסה</string>
+    <string name="shuffle">ערבול</string>
+    <string name="startup_failed">הפעלת התוכנה נכשלה. אנא בדקו קישוריות לנתונים ונסו שנית. אם הבעיה מתמשכת, אנא צרו קשר בעזרת הדוא\"ל hello@lbry.com</string>
+    <string name="no_claim_search_content">אין תוכן להצגה ברגע זה. אנא שפרו את תנאי החיפוש או נסו שנית מאוחר יותר</string>
+
+    <!-- Welcome Page -->
+    <string name="welcome_to_lbry">ברוכים הבאים ל-LBRY</string>
+    <string name="welcome_paragraph">‏‪LBRY‬ היא פלטפורמה בניהול קהילתי שבה ניתן למצוא ולפרסם סרטונים, מוזיקה, ספרים, ועוד.</string>
+    <string name="welcome_tos">אם אתם בוחרים להמשיך, אתם מסכימים ל&lt;a href="https://lbry.com/termsofservice"&gt;תנאי השירות&lt;/a&gt; ומצהירים שגילכם מעל 13 שנים.</string>
+    <string name="welcome_please_wait">אנא המתינו בזמן שאנחנו מכינים כמה דברים…</string>
+    <string name="use_lbry">השתמשו ב-LBRY</string>
+
+    <!-- URI bar -->
+    <string name="uri_placeholder">חפשו סרטונים, מוזיקה ועוד</string>
+
+    <!-- Following page -->
+    <string name="find_channels_to_follow">מצאו ערוצים למעקב</string>
+    <string name="channels_you_follow">ערוצים במעקב</string>
+    <string name="discover">עיון</string>
+    <string name="lbry_works_better">‏‪LBRY‬ עובדת בצורה טובה יותר אם תעקבו אחר לפחות 5 יוצרים שאתם אוהבים. בצעו כניסה כדי לראות את היוצרים שאתם עוקבים אחריהם אם ברשותכם חשבון קיים</string>
+    <string name="select_five_subscriptions">אנא בחרו עד כ-5 יוצרים כדי להמשיך</string>
+    <string name="n_remaining">%1$d נשארו…</string>
+    <string name="done">סיימתי</string>
+    <string name="all">הכל</string>
+    <string name="discover_channels">עיינו בערוצים חדשים</string>
+
+    <!-- Claim lists -->
+    <string name="anonymous">אנונימי</string>
+
+    <!-- File view -->
+    <string name="tags">תגיות</string>
+    <string name="share">שתפו</string>
+    <string name="repost">פרסמו מחדש</string>
+    <string name="tip">טיפ</string>
+    <string name="edit">עריכה</string>
+    <string name="delete">מחיקה</string>
+    <string name="download">הורדה</string>
+    <string name="open">פתיחה</string>
+    <string name="report">דיווח</string>
+    <string name="loading_decentralized_data">טוען תוכן מבוזר…</string>
+    <string name="related_content">תכנים דומים</string>
+    <string name="comments">תגובות</string>
+    <string name="no_comments">אין תגובות להצגה בזמן זה</string>
+    <string name="sdk_initializing_comments">תגובות יוצגו לאחר ששירות הרקע יאותחל</string>
+    <string name="comment_error">תגובתכם לא ניתנת לפרסום כרגע. אנא נסו שנית מאוחר יותר</string>
+    <string name="share_lbry_content">שתף תוכן מ-LBRY</string>
+    <string name="view">צפו</string>
+    <string name="play">הפעילו</string>
+    <string name="unsupported_content">תוכן לא נתמך</string>
+    <string name="unsupported_content_desc">מצטערים, אנחנו לא מסוגילים להציג את תוכן זה באפליקציה. ניתן למצוא את הקובץ %1$sבתיקיית ההורדות שלכם.</string>
+    <string name="nothing_at_this_location">אין תוכן במיקום הנוכחי</string>
+    <string name="publish_something_here">פרסמו משהו כאן</string>
+    <string name="cannot_view_claim">לא ניתן לגשת לתוכן זה כרגע. אנא נסו שוב מאוחר יותר</string>
+    <string name="zero_duration">0:00</string>
+    <string name="claim_file_not_found">לא קיים קובץ במיקום "%1$s"</string>
+    <string name="confirm_purchase">אישור רכישה</string>
+    <string name="delete_file">מחקו קובץ</string>
+    <string name="confirm_delete_file_message">האם אתם בטוחים שברצונכם למחוק קובץ זה ממכשירכם?</string>
+    <string name="unable_to_view_url">נכשל בטעינת %1$s. אנא נסו מאוחר יותר.</string>
+    <string name="no_cast_session_available">לא קיימים חיבורים פנויים להזרמה בעת זו</string>
+    <string name="delete_content">מחקו תוכן?</string>
+    <string name="confirm_delete_content_message">האם אתם בטוחים שברצונכם להסיר מפרסום תוכן זה? קבצים לא ימחקו ממכשירכם</string>
+    <string name="content_deleted">התוכן נמחק בהצלחה מהבלוקצ\'יין</string>
+    <string name="content_failed_delete">התוכן לא ניתן למחיקה בעת זו. אנא נסו שנית מאוחר יותר</string>
+    <string name="comment">הגיבו</string>
+    <string name="comment_as">הגיבו בשם</string>
+    <string name="please_enter_comment">אנא הקלידו תגובה לפרסום</string>
+    <string name="please_select_channel">אנא בחרו ערוץ בכדי לפרסם את תגובתכם בשמו</string>
+    <string name="comment_posted">תגובתכם נשלחה בהצלחה</string>
+    <string name="please_select_repost_channel">אנא בחרו בערוץ יעד עבור הפרסום-חוזר</string>
+    <string name="reply">השיבו</string>
+    <string name="replying_to">משיב ל- %1$s</string>
+    <plurals name="post_and_tip">
+        <item quantity="one">שלחו ותנו טיפ בסך מטבע אחד?</item>
+        <item quantity="two">שלחו ותנו טיפ בסך %1$s מטבעות?</item>
+        <item quantity="many">שלחו ותנו טיפ בסך %1$s מטבעות?</item>
+        <item quantity="other">שלחו ותנו טיפ בסך %1$s מטבעות?</item>
+    </plurals>
+    <plurals name="post_for_credits">
+        <item quantity="one">שלחו עבור מטבע אחד</item>
+        <item quantity="two">שלחו עבור %1$s מטבעות</item>
+        <item quantity="many">שלחו עבור %1$s מטבעות</item>
+        <item quantity="other">שלחו עבור %1$s מטבעות</item>
+    </plurals>
+    <plurals name="confirm_post_comment">
+        <item quantity="one">פעולה זאת תשלח את תגובתכם לצד טיפ בסך מטבע אחד עבור %2$s</item>
+        <item quantity="two">פעולה זאת תשלח את תגובתכם לצד טיפ בסך %1$s מטבעות עבור %2$s</item>
+        <item quantity="many">פעולה זאת תשלח את תגובתכם לצד טיפ בסך %1$s מטבעות עבור %2$s</item>
+        <item quantity="other">פעולה זאת תשלח את תגובתכם לצד טיפ בסך %1$s מטבעות עבור %2$s</item>
+    </plurals>
+    <plurals name="view_count">
+        <item quantity="one">צפייה אחת</item>
+        <item quantity="two">%1$s צפיות</item>
+        <item quantity="many">%1$s צפיות</item>
+        <item quantity="other">%1$s צפיות</item>
+    </plurals>
+    <plurals name="confirm_purchase_message">
+        <item quantity="one">פעולה זאת תרכוש את "%1$s" עבור מטבע אחד</item>
+        <item quantity="two">פעולה זאת תרכוש את "%1$s" עבור %2$s מטבעות</item>
+        <item quantity="many">פעולה זאת תרכוש את "%1$s" עבור %2$s מטבעות</item>
+        <item quantity="other">פעולה זאת תרכוש את "%1$s" עבור %2$s מטבעות</item>
+    </plurals>
+
+    <!-- Channel view -->
+    <string name="no_channel_info">עדיין לא קיים פה דבר\nאנא נסו שוב מאוחר יותר.</string>
+    <string name="content">תוכן</string>
+    <string name="website">כתובת אתר</string>
+    <string name="reposted">פרסם מחדש</string>
+    <plurals name="follower_count">
+        <item quantity="one">עוקב אחד</item>
+        <item quantity="two">שני עוקבים</item>
+        <item quantity="many">%1$s עוקבים</item>
+        <item quantity="other">%1$s עוקבים</item>
+    </plurals>
+
+    <!-- Publish -->
+    <string name="no_publishes_created">נראה שלא פרסמתם עדיין תוכן ב-LBRY.</string>
+    <string name="record">הקליטו</string>
+    <string name="take_photo">צלמו תמונה</string>
+    <string name="upload_file">העלו קובץ</string>
+    <string name="no_videos_found">לא הצלחנו למצוא סרטונים במכשירכם. צלמו תמונה או הקליטו סרטון בכדי להתחיל</string>
+    <string name="loading_videos">אנא המתינו בזמן שאנו טוענים את הסרטונים שלכם…</string>
+    <string name="storage_permission_rationale_videos">‏‪LBRY‬ דורשת גישה על מנת להציג ולפרסם את הסרטונים, תמונות וקבצים אחרים שזמינים במכשירכם.</string>
+    <string name="camera_permission_rationale_record">‏‪LBRY‬ דורשת גישה למצלמה על מנת להקליט סרטונים.</string>
+    <string name="camera_permission_rationale_photo">‏‪LBRY‬ דורשת גישה למצלמה על מנת לצלם תמונות</string>
+    <string name="edit_content">ערכו תוכן</string>
+    <string name="mature_tags">תגיות למבוגרים</string>
+    <string name="price">מחיר</string>
+    <string name="free_publish">התוכן שלכם יפורסם בחינם. לחצו על הגולל לקביעת מחיר.</string>
+    <string name="content_address">כתובת התוכן</string>
+    <string name="randomize">צרו אקראית</string>
+    <string name="address">כתובת</string>
+    <string name="content_address_desc">הכתובת שבעזרתה אנשים ימצאו את התוכן שלכם (לדוגמה lbry://myvideo)</string>
+    <string name="license">רישיון</string>
+    <string name="license_desc">תיאור רישיון</string>
+    <string name="additional_options">אפשרויות נוספות</string>
+    <string name="show_extra_fields">הציגו שדות נוספים</string>
+    <string name="hide_extra_fields">הסתירו שדות נוספים</string>
+    <string name="no_file_found">לא נמצא קובץ לפרסום.</string>
+    <string name="publish_invalid_claim_type">נבחרה תביעה לא תקינה לעריכה</string>
+    <string name="video_optimization">אופטימיזציה לסרטון</string>
+    <string name="video_being_optimized">הסרטון שלכם עובר תהליך אופטימיזציה כדי שייתמך במגוון רחב של מכשירים. אתם יכולים למלא את השדות הנותרים למטה בזמן שתהליך זה מתבצע</string>
+    <string name="video_optimized">הסרטון שלכם עבר תהליך אופטימיזציה בהצלחה על מנת שייתנגן על גבי מספר מרבי של מכשירים. אנא המשיכו בפרסום התוכן שלך.</string>
+    <string name="video_optimize_failed">לא ניתן לבצע אופטימיזציה לסרטון שלכם. הקובץ יעבור העלאה ללא שינויים.</string>
+    <string name="completed_video_duration">אורך הסרטון המלא: %1$s</string>
+    <string name="sdk_initializing_publish">אתם לא יכולים לפרסם תוכן כעת בגלל שתהליך הרקע עדיין מתאתחל</string>
+    <string name="publish_successful">התוכן שלכם פורסם בהצלחה. ייתכן וייקחו כמה רגעים עד שהתוכן יופיע בבלוקצ\'יין.</string>
+    <string name="transcode_in_progress">אופטימיזציית סרטון בתהליך. אם ברצונכם לבטל, לחצו בטל בתחתית העמוד.</string>
+    <string name="optimization_in_progress">אופטימיזציית סרטון בתהליך.</string>
+    <string name="cannot_capture_video">לא קיימת אפליקציית מצלמה להקלטת סרטונים במכשיר זה.</string>
+    <string name="cannot_take_photo">לא קיימת אפליקציית מצלמה לצילום תמונות במכשיר זה</string>
+
+    <string name="please_provide_title">אנא הזינו כותרת.</string>
+    <string name="please_specify_address">אנא ציינו כתובת שדרכה אנשים יצמאו את התוכן שלכם.</string>
+    <string name="address_invalid_characters">הכתובת של התוכן שלכם מכיל תווים לא חוקיים.</string>
+    <string name="address_already_used">כבר פרסמתם תוכן לכתובת שציינתם. אנא ציינו כתובת חדשה.</string>
+    <string name="no_file_selected">לא נבחר קובץ. אנא בחרו סרטון או צלמו תמונה, או בחרו קובץ לפני פרסום.</string>
+    <string name="price_amount_not_set">אנא הזינו מחיר או כבו את המתג כדי להפוך את התוכן שלכם לחינמי.</string>
+    <string name="publish_no_thumbnail">אנא בחרו תמונה ממוזערת להעלאה לפני הפרסום.</string>
+    <string name="publish_thumbnail_in_progress">אנא המתינו לסיום העלאת התמונה הממוזערת לפני הפרסום.</string>
+
+    <string name="language">שפה</string>
+    <string name="english">אנגלית</string>
+    <string name="chinese">סינית</string>
+    <string name="french">צרפתית</string>
+    <string name="german">גרמנית</string>
+    <string name="japanese">יפנית</string>
+    <string name="russian">רוסית</string>
+    <string name="spanish">ספרדית</string>
+    <string name="indonesian">אינדונזית</string>
+    <string name="italian">איטלקית</string>
+    <string name="dutch">הולנדית</string>
+    <string name="turkish">טורקית</string>
+    <string name="polish">פולנית</string>
+    <string name="malay">מלאית</string>
+    <string name="portuguese">פורטוגלית</string>
+    <string name="vietnamese">ויאטנאמית</string>
+    <string name="thai">תאילנדית</string>
+    <string name="arabic">ערבית</string>
+    <string name="czech">צ\'כית</string>
+    <string name="croatian">קרואטית</string>
+    <string name="cambodian">קמבודית</string>
+    <string name="korean">קוריאנית</string>
+    <string name="norwegian">נורווגית</string>
+    <string name="romanian">רומנית</string>
+    <string name="hindi">הינדית</string>
+    <string name="greek">יוונית</string>
+    <string name="catalan">קטלאנית</string>
+
+    <string name="none">ללא</string>
+    <string name="public_domain">נחלת הכלל</string>
+    <string name="copyrighted">מוגן בזכויות יוצרים</string>
+    <string name="cca_4_0_international">Creative Commons Attribution 4.0 International</string>
+    <string name="cca_sa_4_0_international">Creative Commons Attribution-ShareAlike 4.0 International</string>
+    <string name="cca_nd_4_0_international">Creative Commons Attribution-NoDerivatives 4.0 International</string>
+    <string name="cca_nc_4_0_international">Creative Commons Attribution-NonCommercial 4.0 International</string>
+    <string name="cca_nc_sa_4_0_international">Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International</string>
+    <string name="cca_nc_nd_4_0_international">Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International</string>
+
+    <string-array name="publish_currencies">
+        <item>LBC</item>
+        <item>USD</item>
+    </string-array>
+
+    <!-- Publishes -->
+    <string name="one_or_more_publishes_failed_abandon">אחד או יותר פריטי תוכן לא ניתנים למחיקה בעת זאת. אנא נסו שנית מאוחר יותר.</string>
+    <plurals name="confirm_delete_publishes">
+        <item quantity="one">האם אתם בטוחים שברצונכם למחוק את פריט התוכן הנבחר?</item>
+        <item quantity="two">האם אתם בטוחים שברצונכם למחוק את פריטי התוכן הנבחרים?</item>
+        <item quantity="many">האם אתם בטוחים שברצונכם למחוק את פריטי התוכן הנבחרים?</item>
+        <item quantity="other">האם אתם בטוחים שברצונכם למחוק את פריטי התוכן הנבחרים?</item>
+    </plurals>
+    <plurals name="publishes_deleted">
+        <item quantity="one">פריט התוכן נמחק בהצלחה.</item>
+        <item quantity="two">פריטי התוכן נמחקו בהצלחה.</item>
+        <item quantity="many">פריטי התוכן נמחקו בהצלחה.</item>
+        <item quantity="other">פריטי התוכן נמחקו בהצלחה.</item>
+    </plurals>
+
+    <!-- Splash -->
+    <string name="oops_something_went_wrong">אופס! משהו השתבש.</string>
+    <string name="installation_id_loaded">מזהה התקנה נטען.</string>
+    <string name="known_tags_loaded">תגיות מעקב מקומיות נטענו.</string>
+    <string name="exchange_rate_loaded">מדד LBC/USD נטען.</string>
+    <string name="user_authenticated">משתמש אומת.</string>
+    <string name="installation_registered">ההתקנה נרשמה.</string>
+    <string name="subscriptions_loaded">ערוצים במעקב נטענו.</string>
+    <string name="subscriptions_resolved">ערוצים במעקב פוענחו.</string>
+
+    <!-- Settings -->
+    <string name="user_interface">תוכן וממשק משתמש</string>
+    <string name="other">אחר</string>
+    <string name="enable_background_playback">אפשר נגינה ברקע</string>
+    <string name="enable_dark_mode">אפשר מצב כהה</string>
+    <string name="show_mature_content">הצג תוכן למבוגרים</string>
+    <string name="show_url_suggestions">הצג הצעות חיפוש ב-URL</string>
+    <string name="notifications">התראות</string>
+    <string name="subscriptions">ערוצים במעקב</string>
+    <string name="content_interests">הצעות תוכן</string>
+    <string name="mini_player_bottom_spacing">מרווח תחתון של נגן ממוזער</string>
+
+    <string name="keep_sdk_in_background">השאר את התהליך של LBRY פועל ברקע בשביל שיפור ביצועי ארנק דיגיטלי ותעבורת רשת</string>
+    <string name="participate_in_data_network">השתתף ברשת הנתונים (דורש הפעלה מחדש של האפליקציה ותהליך הרקע)</string>
+    <string name="send_buffering_events">שלח אירועי טעינה לשרתים של LBRY</string>
+
+    <!-- URL suggestions -->
+    <string name="search_url_title">%1$s - חפשו</string>
+    <string name="tag_url_title">%1$s - תגית</string>
+    <string name="search_url_desc">חפשו את \'%1$s\'</string>
+    <string name="explore_tag_url_desc">עיינו בתגית \'%1$s\'</string>
+    <string name="view_file_url_desc">צפו בתוכן שב-%1$s</string>
+    <string name="view_channel_url_desc">צפו בערוץ %1$s</string>
+
+    <!-- Search -->
+    <string name="search_no_results">לא נמצאו תוצאות עבור \'%1$s\'. אנא הכניסו תנאי חיפוש אחרים.</string>
+    <string name="search_no_query">אתם יכולים לחפש הכל כולל סרטים, מוזיקה, ספרים אלקטרונים, תוכנות ועוד.</string>
+    <string name="no_related_content">לא נמצא תוכן דומה להצגה בעת זאת.</string>
+
+    <!-- Wallet -->
+    <string name="balance">מאזן</string>
+    <string name="you_currently_have">יש לכם כרגע</string>
+    <string name="convert_credits">אתם יכולים להמיר את המטבעות שלכם ל-USD ולמשוך את הסכום המומר באמצעות חלפניה &lt;a href="https://lbry.com/faq/exchanges"&gt;למדו עוד&lt;/a&gt;.</string>
+    <string name="convert_credits_bittrex">&lt;a href="https://bittrex.com/Account/Register?referralCode=4M1-P30-BON"&gt;המירו מטבעות ל-USD באתר Bittrex&lt;/a&gt;</string>
+    <string name="you_also_have">יש לכם גם</string>
+    <string name="you_staked">השקעתם</string>
+    <string name="in_tips">בטיפים</string>
+    <string name="in_your_publishes">בפרסומים שלכם</string>
+    <string name="in_your_supports">בכספי תמיכה</string>
+    <string name="earn_more_tips">הרוויחו יותר טיפים ע"י העלאת סרטונים מגניבים</string>
+    <string name="sdk_initializing">תהליך הרקע כרגע מתאתחל…</string>
+    <string name="sdk_still_initializing">תהליך הרקע כרגע מתאתחל. אתם יכולים לעיין ולצפות בתכנים בינתיים.</string>
+    <string name="sdk_initializing_functionality">אתם לא יכולים לעשות זאת ברגע זה בגלל שתהליך הרקע עדיין מתאתחל.</string>
+
+    <string name="backup_synced">גיבוי של הארנק שלכם מסונכרן עם lbry.tv</string>
+    <string name="backup_notsynced">הארנק שלכם לא מסונכרן עם lbry.tv. אתם אחראיים לגיבוי הארנק שלכם.</string>
+    <string name="synced_what_does_this_mean">&lt;a href="https://lbry.com/faq/account-sync"&gt;מה זה אומר?&lt;/a&gt;</string>
+    <string name="backup_what_does_this_mean">&lt;a href="https://lbry.com/faq/how-to-backup-wallet#android"&gt;מה זה אומר?&lt;/a&gt;</string>
+
+    <string name="receive_credits">קבלו מטבעות</string>
+    <string name="use_this_address_hint">השתמשו בכתובת ארנק זו כדי לקבל מטבעות הנשלחים על ידי משתמש אחר (או על ידכם).</string>
+    <string name="get_new_address">צור כתובת חדשה</string>
+    <string name="generate_address_hint">אתם יכולים ליצור כתובת חדשה בכל זמן, וכל כתובת ישנה תמשיך לעבוד. שימוש בכמה כתובות יכול לעזור במעקב אחר הכנסות רבות מכמה מקורות.</string>
+
+    <string name="send_credits">שלחו מטבעות</string>
+    <string name="recipient_address">כתובת נמען</string>
+    <string name="recipient_address_placeholder">bbFxRyXXXXXXXXXXXZD8nE7XTLUxYnddTs</string>
+    <string name="amount">סכום</string>
+    <string name="send">שלחו</string>
+
+    <string name="recent_transactions">עסקאות אחרונות</string>
+    <string name="view_all">צפו בהכל</string>
+    <string name="receive">קבלה</string>
+    <string name="spend">הוצאה</string>
+    <string name="publish">פרסום</string>
+    <string name="support">תמיכה</string>
+    <string name="abandon">נטישה</string>
+    <string name="channel">ערוץ</string>
+    <string name="channel_update">עדכון ערוץ</string>
+    <string name="publish_update">עדכון פרסום</string>
+
+    <string name="wallet_sync">סנכרון ארנק</string>
+    <string name="sync_status">סטטוס סנכרון</string>
+    <string name="on">דולק</string>
+    <string name="off">כבוי</string>
+    <string name="email">דוא\"ל</string>
+    <string name="no_connected_email">ללא דוא\"ל מקושר</string>
+    <string name="manual_backup">&lt;a href="https://lbry.com/faq/how-to-backup-wallet#android"&gt;גיבוי ידני&lt;/a&gt;</string>
+    <string name="sync_faq">&lt;a href="https://lbry.com/faq/how-to-backup-wallet#sync"&gt;שאלות נפוצות על סנכרון&lt;/a&gt;</string>
+    <string name="zero">0</string>
+    <string name="lbc">LBC</string>
+
+    <string name="account_recommended">מומלץ חשבון</string>
+    <string name="wallet_account_desc">חשבון ב-lbry.tv מאפשר לכם להרוויח הטבות, לגבות את ארנקכם, ולשמור על הכל בסנכרון</string>
+    <string name="wallet_without_account">ללא חשבון, כל האחראיות לאבטחת הארנק שלכם ולנתוני LBRY נמצאת ביידכם</string>
+    <string name="skip_account">דלגו על חשבון</string>
+    <string name="sign_up">הרשמה</string>
+    <string name="address_copied">כתובת הועתקה</string>
+
+    <string name="invalid_recipient_address">אנא הזינו כתובת תקינה לשליחת מטבעות</string>
+    <string name="insufficient_balance">יתרה לא מספיקה</string>
+    <string name="invalid_amount">אנא הזינו סכום תקין</string>
+    <string name="send_credit_error">המטבעות שלכם לא ניתנים לשליחה בעת זאת. אנא נסו שנית מאוחר יותר.</string>
+    <string name="loading_transactions">טוען עסקאות…</string>
+    <string name="no_recent_transactions">אין עסקאות אחרונות להצגה.</string>
+    <string name="no_transactions">אין עסקאות להצגה בעת זאת.</string>
+    <string name="tx_list_fee">עמלה %1$s</string>
+    <string name="transaction_history">היסטוריית עסקאות</string>
+
+    <string name="unlock">שחרור</string>
+    <string name="unlock_tips">שחרור טיפים?</string>
+    <string name="confirm_unlock_tips">האם אתם בטוחים שאתם רוצים לשחרר את כל הטיפים שלכם?</string>
+    <string name="min_spend_required">אנא הזינו סכום הגדול מ-0.001 מטבעות.</string>
+
+    <string name="buy_lbc">קנו LBC</string>
+    <string name="hash_not_supported">המכשיר שלכם לא עומד בדרישות המינימום לאבטחת בקשת הרכישה</string>
+    <string name="receive_address_not_set">אין לכם עדיין כתובת ארנק. אנא תייצרו כתובת חדשה ונסו שנית.</string>
+
+    <plurals name="you_sent_credits">
+        <item quantity="one">אתם שלחתם מטבע אחד</item>
+        <item quantity="two">אתם שלחתם %1$s מטבעות</item>
+        <item quantity="many">אתם שלחתם %1$s מטבעות</item>
+        <item quantity="other">אתם שלחתם %1$s מטבעות</item>
+    </plurals>
+
+    <!-- Dialogs -->
+    <string name="customize_your_tags">התאימו את התגיות שלכם</string>
+    <string name="sort_content_by">מיינו את התוכן לפי</string>
+    <string name="content_from">תוכן מאת</string>
+    <string name="trending_content">תוכן חם</string>
+    <string name="new_content">תוכן חדש</string>
+    <string name="top_content">תוכן מוביל</string>
+    <string name="trending">חם</string>
+    <string name="top">מוביל</string>
+    <string name="new_text">חדש</string>
+    <string name="past_24_hours">יממה אחרונה</string>
+    <string name="past_week">שבוע אחרון</string>
+    <string name="past_month">חודש אחרון</string>
+    <string name="past_year">שנה אחרונה</string>
+    <string name="all_time">מכל הזמנים</string>
+    <string name="from">תקופה</string>
+    <string name="for_text">עבור</string>
+    <string name="filter_for">סינון עבור</string>
+    <string name="everyone">כולם</string>
+    <string name="tags_you_follow">תגיות במעקב</string>
+    <string name="customize">התאמות</string>
+    <string name="not_yet_implemented">תצוגה זו לא זמינה עדיין.</string>
+    <string name="customize_tags_hint">נראה שאתם עדיין לא עוקבים אחר שום תגית.</string>
+    <string name="search_for_more_tags">חפשו אחר תגיות נוספות</string>
+    <string name="no_followed_tags">אתם עדייןלא עוקבים אחר שום תגית. התחילו בכך שתוסיפו תגיות שמעניינות אתכם</string>
+    <string name="no_tag_results">לא יכולנו למצוא תגיות חדשות שאתם לא עוקבים אחריהן.</string>
+    <string name="tag_already_added">התגית \'%1$s\' כבר נוספה.</string>
+    <string name="tag_limit_reached">אתם לא יכולים להוסיף יותר מ-5 תגיות.</string>
+    <string name="send_a_tip">שלח טיפ</string>
+    <string name="send_a_tip_to">שלח טיפ אל %1$s</string>
+    <string name="support_this_content">תמוך בתוכן זה</string>
+    <string name="support_info">פעולה זאת תעלה את סכום המכרז הכולל לתוכן זה, דבר שיגביר את יכולתו להתגלות בזמן שהוא פעיל&lt;a href="https://lbry.com/faq/tipping"&gt;למדו עוד&lt;/a&gt;.</string>
+    <string name="channel_to_show_support_as">הראה תמיכה בתור ערוץ</string>
+    <string name="make_this_a_tip">הפוך לטיפ</string>
+    <string name="send_revocable_support">תמיכה הניתנת לאחזור</string>
+    <string name="send_lbc_tip">שלח %1$s LBC כטיפ</string>
+    <string name="send_tip_info_content">זה יופיע כטיפ עבור %1$s, דבר שיגביר את יכולתו להתגלות בזמן שהוא פעיל. &lt;a href="https://lbry.com/faq/tipping"&gt;למדו עוד&lt;/a&gt;.</string>
+    <string name="send_tip_info_channel">זה יופיע כטיפ עבור %1$s, דבר שיגביר את יכולת הערוץ להתגלות בזמן שהוא פעיל. &lt;a href="https://lbry.com/faq/tipping"&gt;למדו עוד&lt;/a&gt;.</string>
+    <string name="cancel">ביטול</string>
+    <string name="repost_title">פרסמו מחדש את %1$s</string>
+    <string name="repost_your_favorite">פרסמו מחדש את התוכן המועדף שלכם ועזרו לעוד אנשים לגלות אותו</string>
+    <string name="channel_to_post_on">ערוץ לפרסום בו</string>
+    <string name="show_advanced">הצג מתקדם</string>
+    <string name="hide_advanced">הסתר מתקדם</string>
+    <string name="name">שם</string>
+    <string name="min_deposit">0.001</string>
+    <string name="content_successfully_reposted">התוכן פורסם מחדש בהצלחה</string>
+    <string name="repost_name_invalid_characters">השם לפרסום מחדש מכיל תווים אסורים.</string>
+    <plurals name="you_sent_a_tip">
+        <item quantity="one">שלחתם מטבע אחד כטיפ, סחבק!</item>
+        <item quantity="two">שלחתם %1$s מטבעות כטיפ, סחבק!</item>
+        <item quantity="many">שלחתם %1$s מטבעות כטיפ, סחבק!</item>
+        <item quantity="other">שלחתם %1$s מטבעות כטיפ, סחבק!</item>
+    </plurals>
+    <plurals name="you_sent_a_support">
+        <item quantity="one">סיכנתם מטבע אחד כתמיכה. ביכולתיכם לבטל את תמיכתכם בכל עת.</item>
+        <item quantity="two">סיכנתם %1$s מטבעות כתמיכה. ביכולתיכם לבטל את תמיכתכם בכל עת.</item>
+        <item quantity="many">סיכנתם %1$s מטבעות כתמיכה. ביכולתיכם לבטל את תמיכתכם בכל עת.</item>
+        <item quantity="other">סיכנתם %1$s מטבעות כתמיכה. ביכולתיכם לבטל את תמיכתכם בכל עת.</item>
+    </plurals>
+
+    <!-- Verification -->
+    <string name="provide_email_address">אנא ספקו כתובת דוא\"ל.</string>
+    <string name="email_placeholder">you@example.com</string>
+    <string name="email_sent_to">נשלח מייל אל</string>
+    <string name="please_click_link">אנא הקליקו על הקישור שבהודעה על מנת לשלים את ההתחברות.</string>
+    <string name="resend">שלח שוב</string>
+    <string name="continue_text">המשך</string>
+    <string name="provide_valid_email">אנא הזינו כתובת דוא\"ל תקינה</string>
+    <string name="please_follow_instructions">אנא עקבו אחר ההוראות שבהודעה שנשלח לכתובת דוא\"ל שלכם.</string>
+    <string name="sign_in_successful">התחברתם בהצלחה אל lbry.tv</string>
+    <string name="retrieving_account_information">מאחזר נתוני חשבון…</string>
+    <string name="apply_wallet_data">מאתחל נתוני ארנק…</string>
+    <string name="please_enter_your_password">אנא הזינו את הסיסמה בה השתמשתם לאבטחת הארנק.</string>
+    <string name="please_enter_a_password">אנא הזינו סיסמה לאבטחת הארנק שלכם.</string>
+    <string name="wallet_security_purposes">הערה: למטרות אבטחת הארנק, LBRY אינה מסוגלת לאפס את סיסמתכם.</string>
+    <string name="password">סיסמה</string>
+    <string name="enable_sync">הפעל סנכרון</string>
+    <string name="wallet_sync_op_failed">פעולת סנכרון הארנק לא הושלמה בהצלחה. אנא נסו שנית מאוחר יותר. אם הבעיה ממשיכה, אנא שלחו מייל אל hello@lbry.com.</string>
+    <string name="phone_number">מספר טלפון</string>
+    <string name="enter_phone_number">אנא הזינו את מספר הטלפון שלכם.</string>
+    <string name="not_interested">לא מעוניין</string>
+    <string name="manual_reward_verification">אימות ידני להטבות</string>
+    <string name="reward_verification">אימות להטבות</string>
+    <string name="social_media_verification">אימות דרך רשת חברתית</string>
+    <string name="skip_the_queue">דלגו על התור</string>
+    <string name="skip_queue_button_text">דלגו עבור $%1$s</string>
+    <string name="account_undergo_review">חשבונכם חייב לעבור תהליך אימות לפני שיכול להשתתף בתוכנית ההטבות. הדבר יכול לקחת בין כמה דקות לבין כמה ימים.</string>
+    <string name="get_instantly_verified">ביכולתכם לקבל אימות מיידי ובכך להשתתף בתוכנית ההטבות ,בעזרת חשבון הטוויטר או בעזרת דילוג על תור האימות הידני.</string>
+    <string name="twitter_verification">אימות באמעות טוויטר</string>
+    <string name="twitter_verification_desc">קבלו אימות מיידי בעזרת חשבון הטוויטר שלכם. הדוא\"ל של חשבון הטוויטר שלכם חייב להיות זהה לדוא\"ל שסיפקתם בהרשמה וחשבונכם יהפוך לפעיל.</string>
+    <string name="twitter_verify">אימות בעזרת טוויטר</string>
+    <string name="skip_queue_verification">דלגו על התור</string>
+    <string name="skip_queue_verification_desc">דלגו על תור האימות הידני בעזרת תשלום עמלה בשביל להשתתף בתוכנית ההטבות באופן מיידי.</string>
+    <string name="request_to_be_verified">אנא בקשו לעבור אימות ב&lt;a href="https://discordapp.com/invite/Z3bERWA"&gt;שרת הDiscord של LBRY&lt;/a&gt;. תהליך אימות ידני יכול לקחת בין כמה דקות לכמה ימים.</string>
+    <string name="enjoy_free_content">אנא תהנו בינתיים מתוכן חינמי!</string>
+    <string name="verify_phone_number">אימות מספר טלפון</string>
+    <string name="enter_phone_verify_code">אנא הזינו את קוד האימות שנשלח אל %1$s</string>
+    <string name="code_placeholder">0000</string>
+    <string name="verify">אימות</string>
+    <string name="please_enter_valid_phone">אנא הזינו מספר טלפון תקין.</string>
+    <string name="please_enter_verification_code">אנא הזינו את קוד האימות שנשלח למכשיר הטלפון שלכם.</string>
+    <string name="fetch_current_user_error">חשבון משתמש לא ניתן לאחזור בעת זאת. אנא נסו שוב מאוחר יותר.</string>
+    <string name="purchase_request_pending">בקשת הרכישה שלכם עדיין בתהליכי עיבוד. אנא שלחו מייל אל support@lbry.com.</string>
+    <string name="purchase_request_failed_error">לא היה ניתן להשלים את בקשת הרכישה שלכם בעת זאת. אנא שלחו מייל אל support@lbry.com.</string>
+    <string name="twitter_account_ineligible">חשבון הטוויטר שלכם אינו זכאי בעת זאת: %1$s</string>
+    <string name="twitter_verification_not_approved">החשבון שלכם לא אושר עבור תוכנית ההטבות. אנא נסו שנית מאוחר יותר.</string>
+    <string name="twitter_verification_failed">אימות על ידי טוויטר נכשל. אנא נסו שנית מאוחר יותר.</string>
+    <string name="reward_verification_successful">אתם כעת זכאים להשתתף בתוכנית ההטבות!</string>
+
+    <!-- Forms -->
+    <string name="no_added_tags">לא הוספתם עדיין שום תגית. הוסיפו תגיות לשיפור יכולת הגילוי.</string>
+    <string name="form_no_tag_results">לא מצאנו אף תגית שלא הוספתם כבר.</string>
+
+    <!-- Channels -->
+    <string name="no_channel_created">לא יצרתם ערוץ.\nהתחילו עכשיו על ידי יצירת ערוץ חדש!</string>
+    <string name="create_a_channel">צור ערוץ</string>
+    <string name="create_a_channel_item">צור ערוץ…</string>
+    <string name="edit_channel">ערוך ערוץ</string>
+    <string name="delete_selection">מחק מסומנים?</string>
+    <string name="delete_channel">מחק ערוץ?</string>
+    <string name="confirm_delete_channel">האם אתם בטוחים שברצונכם למחוק את הערוץ?</string>
+    <string name="channel_deleted">הערוץ נמחק בהצלחה.</string>
+    <string name="channel_failed_delete">לא ניתן למחוק את הערוץ בעת זאת. אנא נסה שנית מאוחר יותר.</string>
+    <string name="description">תיאור</string>
+    <string name="yes">כן</string>
+    <string name="no">לא</string>
+    <string name="show_optional_fields">הצג שדות אופציונאליים</string>
+    <string name="hide_optional_fields">הסתר שדות אופציונאליים</string>
+    <string name="save">שמור</string>
+    <string name="channel_name">שם ערוץ</string>
+    <string name="title">כותרת</string>
+    <string name="at">\@</string>
+    <string name="deposit">הפקדה</string>
+    <string name="deposit_remains_yours">סכום LBC זה נשאר שלכם. זוהי הפקדה למען שמירה על שם הערוץ וניתן לבטלה בכל עת.</string>
+    <string name="storage_permission_rationale_download">‏‪LBRY‬ דורשת גישה על מנת לשמור תוכן למכשירכם.</string>
+    <string name="storage_permission_rationale_images">‏‪LBRY‬  דורשת גישה על מנת לטעון תמונות ממכשירכים.</string>
+    <string name="select_thumbnail">בחרו תמונה ממוזערת</string>
+    <string name="select_cover">בחרו תמונת שער</string>
+    <string name="undetermined_image_filepath">נתיב הקובץ לא יכול להיקבע עבור התמונה שנבחרה. אנא בחרו תמונה ממיקום אחר.</string>
+    <string name="wait_for_upload">אנא המתינו להעלאה הנוכחית להסתיים.</string>
+    <string name="image_upload_failed">העלאת התמונה נכשלה. אנא נסו שוב.</string>
+    <string name="uploading">מעלה…</string>
+    <string name="please_enter_channel_name">אנא הזינו שם לערוץ.</string>
+    <string name="channel_name_invalid_characters">שם הערוץ שלכם מכיל תווים לא חוקיים.</string>
+    <string name="channel_name_already_created">יצרתם כבר ערוץ עם שם זהה.</string>
+    <string name="please_enter_valid_deposit">אנא הזינו סכום הפקדה תקין.</string>
+    <string name="deposit_more_than_balance">סכום ההפקדה לא יכול להיות גבוהה מהמאזן הנוכחי שלכם.</string>
+    <string name="channel_save_failed">שמירת הערוץ נכשלה. אנא נסו שנית.</string>
+    <string name="channel_save_successful">הערוץ נשמר בהצלחה.</string>
+    <string name="item_pending_blockchain">התביעה ממתינה לפרסום על הבלוקצ\יין. אתם תהיו מסוגלים לגשת ולערוך את התביעה בעוד כמה רגעים.</string>
+    <string name="pending">ממתין</string>
+    <string name="create">צור</string>
+    <string name="one_or_more_channels_failed_abandon">ערוץ אחד או יותר לא מסוגלים להימחק בעת זאת. אנא נסו שנית מאוחר יותר.</string>
+    <plurals name="min_deposit_required">
+        <item quantity="one">ישנה חובת הפקדה מינימאלית בסכום של מטבע אחד.</item>
+        <item quantity="two">ישנה חובת הפקדה מינימאלית בסכום של %1$s מטבעות.</item>
+        <item quantity="many">ישנה חובת הפקדה מינימאלית בסכום של %1$s מטבעות.</item>
+        <item quantity="other">ישנה חובת הפקדה מינימאלית בסכום של %1$s מטבעות.</item>
+    </plurals>
+    <plurals name="confirm_delete_channels">
+        <item quantity="one">האם אתם בטוחים שברצונכם למחוק את הערוץ הנבחר?</item>
+        <item quantity="two">האם אתם בטוחים שברצונכם למחוק את הערוצים הנבחרים?</item>
+        <item quantity="many">האם אתם בטוחים שברצונכם למחוק את הערוצים הנבחרים?</item>
+        <item quantity="other">האם אתם בטוחים שברצונכם למחוק את הערוצים הנבחרים?</item>
+    </plurals>
+    <plurals name="channels_deleted">
+        <item quantity="one">הערוץ נמחק בהצלחה.</item>
+        <item quantity="two">הערוצים נמחקו בהצלחה.</item>
+        <item quantity="many">הערוצים נמחקו בהצלחה.</item>
+        <item quantity="other">הערוצים נמחקו בהצלחה.</item>
+    </plurals>
+
+    <!-- Rewards -->
+    <string name="lbry_credits_allow">מטבעות LBRY מאפשרים לכם לפרסם או לרכוש תוכן.</string>
+    <string name="free_credits_worth">ביכולתיכם לקבל מטבעות בחינם בשווי של $%1$s לאחר שתספקו כתובת דוא\"ל.</string>
+    <string name="rewards_learn_more">&lt;a href="https://lbry.com/faq/earn-credits"&gt;למדו עוד&lt;/a&gt;.</string>
+    <string name="get_started">התחילו</string>
+    <string name="reward_code_placeholder">abc123</string>
+    <string name="claim">תביעה</string>
+    <string name="please_enter_claim_code">אנא הזינו קוד הטבה למימוש.</string>
+    <string name="unclaimed">לא ממומש</string>
+    <string name="custom_reward_title">קוד הטבה</string>
+    <string name="up_to">עד ל-</string>
+    <string name="custom_reward_description">האם אתם דוגמני-על או כוכבי-רוק וקיבלתם קוד הטבה? ממשו אותו כאן.</string>
+    <plurals name="claim_reward_message">
+        <item quantity="one">מימשתם מטבע אחד כהטבה.</item>
+        <item quantity="two">מימשתם %1$s מטבעות כהטבה.</item>
+        <item quantity="many">מימשתם %1$s מטבעות כהטבה.</item>
+        <item quantity="other">מימשתם %1$s מטבעות כהטבה.</item>
+    </plurals>
+    <plurals name="available_credits">
+        <item quantity="one">מטבע אחד זמין</item>
+        <item quantity="two">%1$s מטבעות זמינים</item>
+        <item quantity="many">%1$s מטבעות זמינים</item>
+        <item quantity="other">%1$s מטבעות זמינים</item>
+    </plurals>
+
+    <!-- Reward drivers -->
+    <string name="publishing_requires_credits">פרסום דורש מטבעות.</string>
+    <string name="channel_creation_requires_credits">יצירת ערוץ דורש מטבעות.</string>
+    <string name="earn_rewards_for_inviting">הרוויחו הטבות תמורת הזמנת חברים.</string>
+    <string name="earn_some_credits_to_access">הרוויחו עוד מטבעות בשביל לגשת לתוכן זה.</string>
+    <string name="tap_here_to_get_some">לחצו כאן כדי להשיג קצת בחינם.</string>
+    <string name="free_credits_available">מטבעות בחינם זמינים באיזור הטבות.</string>
+    <plurals name="wallet_signed_in_free_credits">
+        <item quantity="one">מטבע אחד בחינם זמין באיזור ההטבות</item>
+        <item quantity="two">%1$s מטבעות בחינם זמינים באיזור ההטבות.</item>
+        <item quantity="many">%1$s מטבעות בחינם זמינים באיזור ההטבות.</item>
+        <item quantity="other">%1$s מטבעות בחינם זמינים באיזור ההטבות.</item>
+    </plurals>
+    <plurals name="wallet_get_free_credits">
+        <item quantity="one">קבלו מטבע אחד בחינם תמורת יצירת חשבון.</item>
+        <item quantity="two">קבלו %1$s מטבעות חינם תמורת יצירת חשבון.</item>
+        <item quantity="many">קבלו %1$s מטבעות חינם תמורת יצירת חשבון.</item>
+        <item quantity="other">קבלו %1$s מטבעות חינם תמורת יצירת חשבון.</item>
+    </plurals>
+
+    <!-- Invites -->
+    <string name="lbry_invite_program">תוכנית החברים של LBRY</string>
+    <string name="earn_extra_credits_invites">אתם יכולים להרוויח עוד מטבעות עבור כל אדם שאתם מזמינים ל-LBRY.</string>
+    <string name="invites_learn_more">&lt;a href="https://lbry.com/faq/invites"&gt;למדו עוד&lt;/a&gt;.</string>
+    <string name="invite_link">קישור להזמנה</string>
+    <string name="share_this_link">שתפו את קישור זה עם חבריכם (או אויביכם) כדי לקבל מטבעות כאשר הם יצטרפו ל-lbry.tv.</string>
+    <string name="your_invite_link">קישור ההזמנה שלכם</string>
+    <string name="customize_invite_link">התאימו את קישור ההזמנה</string>
+    <string name="invite_by_email">הזמנה באמצעות דוא\"ל</string>
+    <string name="invite_someone">הזמינו אנשים שאתם מכירים בעזרת דוא\"ל והרוויחו מטבעות כשהם מצטרפים ל-lbry.tv</string>
+    <string name="invite_email_placeholder">imaginary@friend.com</string>
+    <string name="invite">הזמן</string>
+    <string name="invite_history">היסטוריית הזמנות</string>
+    <string name="earn_credits_for_inviting">הרוויחו מטבעות בעבור הזמנת חברים, אויבים, או חברים-אויבים. לכל אחד מגיע חירות בנוגע לתכנים.</string>
+    <string name="reward">הטבה</string>
+    <string name="claimed">מומשו</string>
+    <string name="claimable">ניתנים למימוש</string>
+    <string name="unclaimable">לא ניתנים למימוש</string>
+    <string name="invite_link_copied">קישור להזמנה הועתק.</string>
+    <string name="invite_sent_to">הזמנה נשלחה אל %1$s</string>
+
+    <!-- Library -->
+    <string name="downloads">הורדות</string>
+    <string name="purchases">רכישות</string>
+    <string name="history">היסטוריה</string>
+    <string name="library_no_downloads">לא הורדתם אף תוכן למכשיר זה.</string>
+    <string name="library_no_history">לא צפיתם באף תוכן במכשיר זה.</string>
+    <string name="library_no_purchases">לא רכשתם אף תוכן תחת החשבון שלכם.</string>
+    <string name="hide">הסתר</string>
+    <string name="stats">סטטיסטיקה</string>
+    <string name="video">וידאו</string>
+    <string name="audio">אודיו</string>
+    <string name="images">תמונות</string>
+    <string name="mb">מ"ב</string>
+    <string name="kb">ק"ב</string>
+    <string name="gb">ג"ב</string>
+    <string name="zero_mb">0 מ"ב</string>
+    <plurals name="confirm_delete_files">
+        <item quantity="one">האם אתם בטוחים שברצונכם למחוק את הקובץ הנבחר ממכשירכם?</item>
+        <item quantity="two">האם אתם בטוחים שברצונכם למחוק את הקבצים הנבחרים ממכשירכם?</item>
+        <item quantity="many">האם אתם בטוחים שברצונכם למחוק את הקבצים הנבחרים ממכשירכם?</item>
+        <item quantity="other">האם אתם בטוחים שברצונכם למחוק את הקבצים הנבחרים ממכשירכם?</item>
+    </plurals>
+    <plurals name="files_deleted">
+        <item quantity="one">הקובץ נמחק בהצלחה.</item>
+        <item quantity="two">הקבצים נמחקו בהצלחה.</item>
+        <item quantity="many">הקבצים נמחקו בהצלחה.</item>
+        <item quantity="other">הקבצים נמחקו בהצלחה.</item>
+    </plurals>
+
+    <!-- About -->
+    <string name="about_lbry">אודות LBRY</string>
+    <string name="content_freedom">חירות בתכנים</string>
+    <string name="about_paragraph">‏‪LBRY‬  היא חנות דיגיטלית חופשית, פתוחה, ובניהול קהילתי. היא גם פלטפורמה מבוזרת להפצת תכנים מאדם לאדם, שבה יוצרים יכולים להעלות ולשתף תכנים, ולהרוויח מטבעות LBRY בתמורה להשקעתם. משתמשים יוכלו למצוא בה מבחר מגוון של סרטונים, מוזיקה, ספרים אלקטרונים ותוכן דיגיטלי נוסף שהם מעוניינים בו.</string>
+    <string name="get_social">רשתות חברתיות</string>
+    <string name="social_paragraph">אתם יכולים ליצור קשר עם צוות LBRY וחברי הקהילה ב-Discord, פייסבוק, אינסטגרם, טוויטר, ו-Reddit.</string>
+    <string name="app_info">נתוני אפליקציה</string>
+    <string name="loading">טוען…</string>
+    <string name="about_link_what_is_lbry">&lt;a href="https://lbry.com/faq/what-is-lbry"&gt;מהי LBRY?&lt;/a&gt;</string>
+    <string name="about_link_android_basics">&lt;a href="https://lbry.com/faq/android-basics"&gt;שאלות ותשובות אנדרואיד&lt;/a&gt;</string>
+    <string name="about_link_faq">&lt;a href="https://lbry.com/faq"&gt;שאלות ותשובות&lt;/a&gt;</string>
+    <string name="about_link_discord">&lt;a href="https://discordapp.com/invite/Z3bERWA"&gt;Discord&lt;/a&gt;</string>
+    <string name="about_link_facebook">&lt;a href="https://www.facebook.com/LBRYio"&gt;פייסבוק&lt;/a&gt;</string>
+    <string name="about_link_instagram">&lt;a href="https://www.instagram.com/LBRYio"&gt;אינסטגרם&lt;/a&gt;</string>
+    <string name="about_link_reddit">&lt;a href="https://reddit.com/r/lbry"&gt;Reddit&lt;/a&gt;</string>
+    <string name="about_link_telegram">&lt;a href="https://t.me/lbryofficial"&gt;טלגרם&lt;/a&gt;</string>
+    <string name="about_link_twitter">&lt;a href="https://twitter.com/LBRYio"&gt;טוויטר&lt;/a&gt;</string>
+    <string name="update_mailing_preferences">עדכון העדפות דוא\"ל</string>
+    <string name="app_version">גרסת אפליקציה</string>
+    <string name="lbry_sdk">‏‪LBRY SDK‬</string>
+    <string name="platform">פלטפורמה</string>
+    <string name="installation_id">מזהה התקנה</string>
+    <string name="firebase_token">אסימון Firebase</string>
+    <string name="logs">יומנים</string>
+    <string name="send_log">שלח יומן</string>
+    <string name="connected_email">דוא\"ל מקושר</string>
+    <string name="unknown">לא ידוע</string>
+    <string name="cannot_find_lbrynet_log">הקובץ lbrynet.log לא נמצא.</string>
+    <string name="cannot_share_lbrynet_log">הקובץ lbrynet.log לא יכול להישלח כתוצאה מהגבלת הרשאות</string>
+
+    <!-- Notifications -->
+    <string name="no_notifications">איזה שקט…\nהתראות חדשות יופיעו כאן כשיתקבלו.</string>
+
+    <!-- Font Awesome -->
+    <string name="fa_gift" translatable="false">&#xf06b;</string>
+    <string name="fa_lock" translatable="false">&#xf023;</string>
+    <string name="fa_coins" translatable="false">&#xf51e;</string>
+    <string name="fa_file" translatable="false">&#xf15b;</string>
+    <string name="fa_hashtag" translatable="false">&#xf292;</string>
+    <string name="fa_search" translatable="false">&#xf002;</string>
+    <string name="fa_at" translatable="false">&#xf1fa;</string>
+
+    <string name="fa_heart" translatable="false">&#xf004;</string>
+    <string name="fa_heart_broken" translatable="false">&#xf7a9;</string>
+    <string name="fa_star" translatable="false">&#xf005;</string>
+    <string name="fa_globe_americas" translatable="false">&#xf57d;</string>
+    <string name="fa_upload" translatable="false">&#xf093;</string>
+    <string name="fa_download" translatable="false">&#xf019;</string>
+    <string name="fa_cloud_upload" translatable="false">&#xf382;</string>
+    <string name="fa_wallet" translatable="false">&#xf555;</string>
+    <string name="fa_award" translatable="false">&#xf559;</string>
+    <string name="fa_user_friends" translatable="false">&#xf500;</string>
+    <string name="fa_cog" translatable="false">&#xf013;</string>
+    <string name="fa_mobile_alt" translatable="false">&#xf3cd;</string>
+    <string name="fa_repost" translatable="false">&#xf079;</string>
+    <string name="fa_folder_open" translatable="false">&#xf07c;</string>
+
+    <string name="fa_asterisk" translatable="false">&#xf069;</string>
+    <string name="fa_comment_alt" translatable="false">&#xf27a;</string>
+    <string name="fa_broadcast_tower" translatable="false">&#xf519;</string>
+    <string name="fa_random" translatable="false">&#xf074;</string>
+    <string name="thumbnail_creation_failed">לא היה ניתן לייצר תמונה ממוזערת אוטומטית מהתוכן שלכם</string>
+    <string name="unpublish">הסירו מפרסום</string>
+</resources>
